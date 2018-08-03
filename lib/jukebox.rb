@@ -67,7 +67,7 @@ def run (tracks)
       when "help"
         help
       when "list"
-        list
+        list (tracks)
     end
   end
 end
