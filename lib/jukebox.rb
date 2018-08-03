@@ -56,6 +56,7 @@ end
 
 def exit_jukebox
   puts "Goodbye"
+end
 
 # def say_hello(name)
 #   return "Hi #{name}!"
