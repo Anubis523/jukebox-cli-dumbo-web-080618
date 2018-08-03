@@ -72,6 +72,7 @@ def run (tracks)
         play (tracks)
     end
   end
+  exit
 end
 
 # def say_hello(name)
