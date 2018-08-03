@@ -54,6 +54,9 @@ def play (tracks)
   track
 end
 
+def exit_jukebox
+  puts "Goodbye"
+
 # def say_hello(name)
 #   return "Hi #{name}!"
 # end
