@@ -63,6 +63,9 @@ def run
   puts "Please enter a command: "
   user_input = gets.chomp
   case user_input
+    when "help"
+      help
+    when ""
   end
 end
 
