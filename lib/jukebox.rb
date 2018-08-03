@@ -35,21 +35,15 @@ def play (tracks)
     puts "#{tracks[1]}"
   when "The Naked and the Famous - Young Blood", "3"
     puts "#{tracks[2]}"
-  when 
+  when "(Far From) Home - Tiga", "4"
     puts "#{tracks[3]}"
-  when 
-    
-  "(Far From) Home - Tiga",
-  "The Cults - Abducted",
-  "Phoenix - Consolation Prizes",
-  "Harry Chapin - Cats in the Cradle",
-  "Amos Lee - Keep It Loose, Keep It Tight"
+  when "The Cults - Abducted", "5"
     puts "#{tracks[4]}"
-  when
+  when "Phoenix - Consolation Prizes", "6"
     puts "#{tracks[5]}"
-  when
+  when "Harry Chapin - Cats in the Cradle", "7"
     puts "#{tracks[6]}"
-  when
+  when "Amos Lee - Keep It Loose, Keep It Tight",  "8"
     puts "#{tracks[7]}"
   when
     puts "#{tracks[8]}"
