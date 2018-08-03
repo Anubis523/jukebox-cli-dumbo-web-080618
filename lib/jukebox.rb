@@ -49,7 +49,7 @@ def play (tracks)
   when "Amos Lee - Keep It Loose, Keep It Tight",  "8"
     track =  "Playing #{tracks[8]}"
   else
-    track = "Not Correct"
+    track = "Invalid input, please try again"
   end
 end
 
