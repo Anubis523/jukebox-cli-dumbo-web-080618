@@ -68,6 +68,8 @@ def run (tracks)
         help
       when "list"
         list (tracks)
+      when "play"
+        play (tracks)
     end
   end
 end
