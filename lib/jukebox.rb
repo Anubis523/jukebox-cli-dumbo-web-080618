@@ -51,9 +51,10 @@ def play (tracks)
   else
     track = "Invalid input, please try again"
   end
+  track
 end
 
 # def say_hello(name)
 #   return "Hi #{name}!"
 # end
-play(songs)
+put play(songs)
