@@ -46,7 +46,7 @@ def play (tracks)
   when
     puts "#{tracks[response.to_i-1]}"
   when
-    puts "#{tracks[response.to_i-1]}"
+    puts "#{tracks[8]}"
   else
     puts "Not Correct"
   end
