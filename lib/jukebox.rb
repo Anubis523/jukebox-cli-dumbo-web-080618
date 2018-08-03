@@ -30,21 +30,21 @@ def play (tracks)
   response = gets.chomp 
   case response
   when "Phoenix - 1901" , "1"
-    puts "#{tracks[response.to_i-1]}"
+    puts "#{tracks[0]}"
   when
-    puts "#{tracks[response.to_i-1]}"
+    puts "#{tracks[1]}"
   when
-    puts "#{tracks[response.to_i-1]}"
+    puts "#{tracks[2]}"
   when
-    puts "#{tracks[response.to_i-1]}"
+    puts "#{tracks[3]}"
   when
-    puts "#{tracks[response.to_i-1]}"
+    puts "#{tracks[4]}"
   when
-    puts "#{tracks[response.to_i-1]}"
+    puts "#{tracks[5]}"
   when
-    puts "#{tracks[response.to_i-1]}"
+    puts "#{tracks[6]}"
   when
-    puts "#{tracks[response.to_i-1]}"
+    puts "#{tracks[7]}"
   when
     puts "#{tracks[8]}"
   else
