@@ -63,11 +63,11 @@ def run (tracks)
   puts "Please enter a command: "
   user_input = gets.chomp
   until user_input == "exit"
-  end
-  case user_input
-    when "help"
-      help
-    when ""
+    case user_input
+      when "help"
+        help
+      when ""
+    end
   end
 end
 
