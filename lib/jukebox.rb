@@ -32,9 +32,21 @@ def play (tracks)
   when "Phoenix - 1901" , "1"
     puts "#{tracks[response.to_i-1]}"
   when
+    puts "#{tracks[response.to_i-1]}"
   when
+    puts "#{tracks[response.to_i-1]}"
   when
+    puts "#{tracks[response.to_i-1]}"
   when
+    puts "#{tracks[response.to_i-1]}"
+  when
+    puts "#{tracks[response.to_i-1]}"
+  when
+    puts "#{tracks[response.to_i-1]}"
+  when
+    puts "#{tracks[response.to_i-1]}"
+  when
+    puts "#{tracks[response.to_i-1]}"
   else
     puts "Not Correct"
   end
