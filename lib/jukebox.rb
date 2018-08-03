@@ -60,7 +60,10 @@ end
 
 def run 
   help
-  
+  puts "Please enter a command: "
+  user_input = gets.chomp
+  case user_input
+  end
 end
 
 # def say_hello(name)
