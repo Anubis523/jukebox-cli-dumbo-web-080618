@@ -41,7 +41,7 @@ def play (tracks)
     puts "#{tracks[4]}"
   when "Phoenix - Consolation Prizes", "6"
     puts "#{tracks[5]}"
-  when "Harry Chapin - Cats in the Cradle", "7"
+  when "Harry Chapin - Cats in the Cradle","7"
     puts "#{tracks[6]}"
   when "Amos Lee - Keep It Loose, Keep It Tight",  "8"
     puts "#{tracks[7]}"
