@@ -28,6 +28,7 @@ end
 def play (tracks)
   puts "Please enter a song name or number:"
   response = gets.chomp 
+  track = ""
   case response
   when "Phoenix - 1901" , "1"
     puts "#{tracks[0]}"
