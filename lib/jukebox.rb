@@ -31,6 +31,10 @@ def play (tracks)
   case response
   when "Phoenix - 1901" , "1"
     puts "#{tracks[response.to_i-1]}"
+  when
+  when
+  when
+  when
   else
     puts "Not Correct"
   end
