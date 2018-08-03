@@ -31,13 +31,19 @@ def play (tracks)
   case response
   when "Phoenix - 1901" , "1"
     puts "#{tracks[0]}"
-  when
+  when "Tokyo Police Club - Wait Up", "2"
     puts "#{tracks[1]}"
-  when
+  when "The Naked and the Famous - Young Blood", "3"
     puts "#{tracks[2]}"
-  when
+  when 
     puts "#{tracks[3]}"
-  when
+  when 
+    
+  "(Far From) Home - Tiga",
+  "The Cults - Abducted",
+  "Phoenix - Consolation Prizes",
+  "Harry Chapin - Cats in the Cradle",
+  "Amos Lee - Keep It Loose, Keep It Tight"
     puts "#{tracks[4]}"
   when
     puts "#{tracks[5]}"
