@@ -47,8 +47,6 @@ def play (tracks)
     puts "#{tracks[7]}"
   when "Amos Lee - Keep It Loose, Keep It Tight",  "8"
     puts "#{tracks[8]}"
-  when
-    puts "#{tracks[8]}"
   else
     puts "Not Correct"
   end
