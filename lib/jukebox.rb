@@ -57,4 +57,4 @@ end
 # def say_hello(name)
 #   return "Hi #{name}!"
 # end
-put play(songs)
+puts play(songs)
