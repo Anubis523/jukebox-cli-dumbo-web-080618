@@ -51,7 +51,7 @@ def play (tracks)
   else
     track = "Invalid input, please try again"
   end
-  track
+  puts track
 end
 
 def exit_jukebox
@@ -66,7 +66,8 @@ def run (tracks)
     case user_input
       when "help"
         help
-      when ""
+      when "list"
+        list
     end
   end
 end
