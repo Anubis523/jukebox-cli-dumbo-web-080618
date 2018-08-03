@@ -62,6 +62,8 @@ def run (tracks)
   help
   puts "Please enter a command: "
   user_input = gets.chomp
+  until user_input == "exit"
+  end
   case user_input
     when "help"
       help
