@@ -59,6 +59,8 @@ def exit_jukebox
 end
 
 def run 
+  help
+  
 end
 
 # def say_hello(name)
